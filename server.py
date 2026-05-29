@@ -13,7 +13,7 @@ numberStrokes = 0
 golfRank = ""
 
 while True:
-    # Receive the direction list, max, and min wind-strength as raw bytes
+    # Receive the course par and number of strokes as raw bytes
     rawBytes = socket.recv()
 
     print(f"Received raw bytes: {rawBytes}")
